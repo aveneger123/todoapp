@@ -1,0 +1,40 @@
+.content {
+  width: 50%;
+  min-height: 20;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+.main {
+  margin: 20px auto;
+}
+.inputcontainer {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+.data {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.todo {
+  width: 40%;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Staatliches', cursive;
+}
+.completed {
+  width: 40%;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Staatliches', cursive;
+}
+.text-center {
+  font-family: "Staatliches", cursive;
+}
