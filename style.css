@@ -38,3 +38,6 @@
 .text-center {
   font-family: "Staatliches", cursive;
 }
+.completedItem{
+  margin-bottom: 10px;
+}

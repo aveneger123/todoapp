@@ -15,7 +15,9 @@ var createnewtask = function (task) {
 };
 var addtask = function () {
   console.log("addingtask");
-  var listitem = createnewtask(newtask.value);
+  var listitem;
+  if(newtask.value !== "")
+    listitem = createnewtask(newtask.value);
   incomplete.appendChild(listitem);
   newtask.value = "";
 
@@ -29,6 +31,7 @@ var completetask = function () {
   listitem.appendChild(deletebutton);
   var checkbox = listitem.querySelector("input[type=checkbox]");
   checkbox.remove();
+  listitem.className = "completedItem";
   complete.appendChild(listitem);
   bindcompleteitems(listitem, deletetask);
 }
